@@ -25,6 +25,7 @@ public class Log_In extends JFrame implements KeyListener {
     JPanel pnlMain, pnlLogIn;
     JLabel lblImage, lbl1, lbl2, lbl3, lbl4, lbl5, lbl6, lbl7;
     InputForm txtUsername, txtPassword;
+    int a = 0;
 
     Color FontColor = new Color(96, 125, 139);
 
