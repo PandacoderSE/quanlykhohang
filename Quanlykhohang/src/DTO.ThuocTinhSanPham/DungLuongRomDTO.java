@@ -4,10 +4,7 @@
  */
 package DTO.ThuocTinhSanPham;
 
-/**
- *
- * @author Tran Nhat Sinh
- */
+
 public class DungLuongRomDTO{
     private int madungluongrom;
     private int dungluongrom;

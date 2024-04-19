@@ -6,10 +6,7 @@ package DTO.ThuocTinhSanPham;
 
 import java.util.Objects;
 
-/**
- *
- * @author Tran Nhat Sinh
- */
+
 public class MauSacDTO {
     private int mamau;
     private String tenmau;
