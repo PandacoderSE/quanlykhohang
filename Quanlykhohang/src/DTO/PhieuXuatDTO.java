@@ -7,10 +7,6 @@ package DTO;
 import java.sql.Timestamp;
 import java.util.ArrayList;
 
-/**
- *
- * @author Tran Nhat Sinh
- */
 public class PhieuXuatDTO extends PhieuDTO{
     private int makh;
 

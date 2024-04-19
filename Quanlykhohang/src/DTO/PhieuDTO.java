@@ -3,10 +3,6 @@ package DTO;
 import java.sql.Timestamp;
 import java.util.Objects;
 
-/**
- *
- * @author 84907
- */
 public class PhieuDTO {
     private int maphieu;
     private int manguoitao;

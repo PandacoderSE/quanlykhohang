@@ -4,10 +4,7 @@
  */
 package DTO.ThuocTinhSanPham;
 
-/**
- *
- * @author 84907
- */
+
 public class HeDieuHanhDTO {
     private int mahdh;
     private String tenhdh;
