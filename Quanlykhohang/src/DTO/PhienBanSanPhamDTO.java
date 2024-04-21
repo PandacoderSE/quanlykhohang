@@ -4,11 +4,6 @@
  */
 package DTO;
 
-
-/**
- *
- * @author Tran Nhat Sinh
- */
 public class PhienBanSanPhamDTO {
     private int maphienbansp;
     private int masp;

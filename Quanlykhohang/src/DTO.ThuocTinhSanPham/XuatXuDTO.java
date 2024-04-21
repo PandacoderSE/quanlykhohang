@@ -4,10 +4,7 @@
  */
 package DTO.ThuocTinhSanPham;
 
-/**
- *
- * @author 84907
- */
+
 public class XuatXuDTO {
     private int maxuatxu;
     private String tenxuatxu;

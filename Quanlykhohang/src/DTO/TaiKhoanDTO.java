@@ -6,10 +6,6 @@ package DTO;
 
 import java.util.Objects;
 
-/**
- *
- * @author robot
- */
 public class TaiKhoanDTO {
     private int manv;
     private String username;
