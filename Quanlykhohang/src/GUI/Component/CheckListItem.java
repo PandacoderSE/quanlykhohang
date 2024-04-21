@@ -1,13 +1,23 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package GUI.Component;
-
-/**
- *
- * @author nmajn
- */
 public class CheckListItem {
-    
+
+  private String label;
+  private boolean isSelected = false;
+
+  public CheckListItem(String label) {
+    this.label = label;
+  }
+
+  public boolean isSelected() {
+    return isSelected;
+  }
+
+  public void setSelected(boolean isSelected) {
+    this.isSelected = isSelected;
+  }
+
+  @Override
+  public String toString() {
+    return label;
+  }
 }
