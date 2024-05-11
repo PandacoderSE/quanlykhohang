@@ -1,64 +1,38 @@
+package config;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.SQLException;
-
-import com.mysql.cj.jdbc.DatabaseMetaData;
-import com.mysql.cj.jdbc.Driver;
+import javax.swing.JOptionPane;
 
 public class JDBCUtil {
-	public static Connection getConnection() {
-		Connection c= null ; 
-		
-		try {
-			//đăng ký mysql driver 
-			DriverManager.registerDriver(new com.mysql.jdbc.Driver() );
-			//link 
-			//port 
-			//databasename
-			//passwork 
-			String url ="jdbc:mySQL://localhost:3306/nhasach" ; 
-			String username = "root";
-			String password = "";
-			//tạo kết nối 
-			c = DriverManager.getConnection(url, username, password) ; 
-		
-		
-		} catch (SQLException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		
-		return c ; 
-	}
-	public static void printInfo(Connection c) {
-		if(c!=null) {
-			try {
-				DatabaseMetaData mtdt = (DatabaseMetaData) c.getMetaData();
-				System.out.println(mtdt.getDatabaseProductName());
-				System.out.println(mtdt.getDatabaseProductVersion());
-			} catch (SQLException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-		}
-	}
-	//ngắt kết nối 
-	public static void closeConnection(Connection c) {
-		try {
-			if(c!=null) {
-				c.close();
-			}
-		} catch (Exception e) {
-			e.printStackTrace();
-			// TODO: handle exception
-		}
-	}
-        public static void main(String[] args) {
-                Connection connection = JDBCUtil.getConnection() ; 
-		System.out.println(connection);
-		JDBCUtil.printInfo(connection);
-		
-		JDBCUtil.closeConnection(connection);
-		//JDBCUtil.printInfo(connection);
+
+    public static Connection getConnection() {
+        Connection result = null;
+        try {
+            // Dang ky MySQL Driver voi DriverManager
+            DriverManager.registerDriver(new com.mysql.cj.jdbc.Driver());
+            //Cac thong so
+//            url , usname , passwword
+            String url = "jdbc:mySQL://localhost:3306/quanlikhohang";
+            String userName = "root";
+            String password = "";
+            //Tao ket noi 
+            result = DriverManager.getConnection(url, userName, password);
+        } catch (Exception e) {
+            JOptionPane.showMessageDialog(null, "Không thể kết nối đến cơ sở dữ liệu !", "Lỗi", JOptionPane.ERROR_MESSAGE);
+        }
+        return result;
     }
+
+    public static void closeConnection(Connection c) {
+        try {
+            if (c != null) {
+                c.close();
+            }
+        } catch (Exception e) {
+            // TODO: handle exception
+            e.printStackTrace();
+        }
+    }
+  
 }

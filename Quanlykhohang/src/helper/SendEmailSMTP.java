@@ -13,7 +13,7 @@ public class SendEmailSMTP {
     }
     
     public static void sendOTP(String emailTo, String otp) {
-        String username = "tsinh11111@gmail.com";
+        String username = "nguyenvanmanh22082003dl@gmail.com";
         String password = "ojldjxeqzmdxznbh";
         Properties prop = new Properties();
         prop.put("mail.smtp.host", "smtp.gmail.com");
@@ -46,7 +46,7 @@ public class SendEmailSMTP {
 "                <hr style=\"border:none;border-top:1px solid #eee\" />" +
 "                <div style=\"float:right;padding:8px 0;color:#aaa;font-size:0.8em;line-height:1;font-weight:300\">" +
 "                    <p>App WarehouseManagemen</p>" +
-"                    <p>Số 273 An Dương Vương, Phường 3, Quận 5, TP. HCM</p>" +
+"                    <p>Đại Học Công Nghiệp Hà Nội</p>" +
 "                    <p>Việt Nam</p>" +
 "                </div>" +
 "                </div>" +
