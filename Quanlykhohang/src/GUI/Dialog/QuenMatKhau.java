@@ -27,10 +27,7 @@ import javax.swing.JTextField;
 import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
 
-/**
- *
- * @author Tran Nhat Sinh
- */
+
 public class QuenMatKhau extends JDialog implements ActionListener {
 
     private JButton btnSendMail, btnConfirmOTP, btnChangePass;

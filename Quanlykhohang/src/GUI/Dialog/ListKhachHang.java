@@ -37,10 +37,7 @@ import javax.swing.border.EmptyBorder;
 import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.DefaultTableModel;
 
-/**
- *
- * @author robot
- */
+
 public class ListKhachHang extends JDialog implements MouseListener {
 
     private TaoPhieuXuat taoPhieuXuat;

@@ -37,10 +37,6 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JTextArea;
 
-/**
- *
- * @author robot
- */
 public class QRCode_Dialog extends JDialog {
 
     private final Dimension ds = new Dimension(700, 500);

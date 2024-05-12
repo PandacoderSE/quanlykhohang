@@ -29,10 +29,7 @@ import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableColumnModel;
 
-/**
- *
- * @author 84907
- */
+
 public final class ThuongHieuDialog extends JDialog implements MouseListener {
 
     HeaderTitle headTite;

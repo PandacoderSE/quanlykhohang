@@ -26,10 +26,7 @@ import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 import javax.swing.text.PlainDocument;
 
-/**
- *
- * @author Tran Nhat Sinh
- */
+
 public class NhaCungCapDialog extends JDialog implements ActionListener {
 
     private NhaCungCap jpNcc;

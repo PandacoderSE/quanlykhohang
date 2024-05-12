@@ -57,10 +57,7 @@ import javax.swing.JTextField;
 import javax.swing.ListSelectionModel;
 import javax.swing.border.EmptyBorder;
 
-/**
- *
- * @author robot
- */
+
 public class PhieuKiemKeDialog extends JDialog {
 
     private final Dimension ds = new Dimension(700, 500);
