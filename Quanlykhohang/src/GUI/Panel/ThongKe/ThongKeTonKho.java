@@ -43,7 +43,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author Tran Nhat Sinh
+ * @author Tran Kien
  */
 public final class ThongKeTonKho extends JPanel implements ActionListener, KeyListener, PropertyChangeListener {
 
