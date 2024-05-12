@@ -42,7 +42,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author andin
+ * @author TRan Kien
  */
 public class ThongKeKhachHang extends JPanel implements ActionListener, KeyListener, PropertyChangeListener {
 
