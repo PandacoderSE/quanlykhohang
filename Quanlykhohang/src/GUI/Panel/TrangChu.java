@@ -1,12 +1,23 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
 package GUI.Panel;
 
-import java.awt.*;
-import javax.swing.*;
 import GUI.Component.PanelShadow;
 import com.formdev.flatlaf.FlatIntelliJLaf;
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.Dimension;
+import java.awt.FlowLayout;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
 
-public class TrangChu extends JPanel {
-
+/**
+ *
+ * @author nmajn
+ */
+public class TrangChu extends JPanel{
     JPanel top, center, bar1, bar2;
     PanelShadow content[];
     JPanel info[];
@@ -51,10 +62,10 @@ public class TrangChu extends JPanel {
 
         infoIcon = new JLabel[3];
 
-        for (int i = 0; i < getSt.length; i++) {
-              
-              content[i] = new PanelShadow(getSt[i][1], getSt[i][0], getSt[i][2]);
-              center.add(content[i]);
+//        for (int i = 0; i < getSt.length; i++) {
+//              
+//              content[i] = new PanelShadow(getSt[i][1], getSt[i][0], getSt[i][2]);
+//              center.add(content[i]);
 //            content[i] = new PanelShadow();
 //            content[i].setPreferredSize(new Dimension(300, 450));
 //            content[i].setBackground(MainColor);
@@ -89,7 +100,7 @@ public class TrangChu extends JPanel {
 //
 //            center.add(content[i]);
 
-        }
+       // }
 
         this.add(center, BorderLayout.CENTER);
 
@@ -100,6 +111,5 @@ public class TrangChu extends JPanel {
         FlatIntelliJLaf.registerCustomDefaultsSource("style");
         FlatIntelliJLaf.setup();
     }
-
 
 }
