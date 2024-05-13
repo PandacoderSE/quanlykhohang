@@ -31,10 +31,7 @@ import javax.swing.border.EmptyBorder;
 import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.DefaultTableModel;
 
-/**
- *
- * @author Tran Nhat Sinh
- */
+
 public final class ThongKeDoanhThuTungThang extends JPanel implements ActionListener{
 
     PanelBorderRadius pnlChart;

@@ -27,7 +27,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author Tran Nhat Sinh
+ * @author Tran Kien
  */
 public class ThongKeTongQuan extends JPanel {
 
