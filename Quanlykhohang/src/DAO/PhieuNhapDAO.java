@@ -14,10 +14,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.Date;
 
-/**
- *
- * @author Tran Nhat Sinh
- */
+
 public class PhieuNhapDAO implements DAOinterface<PhieuNhapDTO> {
 
     public static PhieuNhapDAO getInstance() {
