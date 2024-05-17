@@ -1,4 +1,5 @@
 Bài Tập lớn -TTCN - nhóm 10 <br>
+Đề Tài : <span style="color:red ;"> Xây Dựng Hệ Thống Quản Lý Kho Hàng </span> <br>
 Để có thể chạy chương trình <br>
 Bước 1 : clone code tại đây <br>
 Bước 2 :  sử dụng netbeans jdk 21 <br>
