@@ -1,4 +1,4 @@
-Bài Tập lớn -TTCN - nhóm 10
+Bài Tập lớn -TTCN - nhóm 10 <br>
 Để có thể chạy chương trình 
 Bước 1 : sử dụng netbeans jdk 21 
 Bước 2 : add thư viện trong file lib_bosung và file Libraries theo hình dưới đây 
